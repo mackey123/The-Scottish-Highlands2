@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html, body{
+  width: 100%;
+  height:100%;
+  font-size: 12px;
+  font-weight: normal;
+
+}
+
+.header{
+    text-align: center;
+}
+
+.container-fluid{
+    width:fit-content;
+}
+
+/* Background image styles */
+.background{
+    background-image: url(..images/1102672.jpg);
+}
+
