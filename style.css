@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
 
+/* Main Html */
 
 *{
     margin: 0;
@@ -14,12 +15,21 @@ html, body{
 
 }
 
-  h1 {
+  h1 em {
     text-align: center;
     color: azure;
     font-size: 50px;
-    
 }
+
+em{
+  text-align: center;
+}
+
+.column{
+  text-align: center;
+  color: azure;
+}
+
 
 /* Nav-bar styles */
 .container-fluid{
@@ -32,7 +42,57 @@ html, body{
      color: azure;
  }
 
+
+ /* section styles */
+  section, h1{
+    color: rgb(104, 104, 104);
+  }
+
+
+/* paragrapghs main html */
+
+.info{
+  color: rgb(128, 126, 126);
+  font-size: 25px;
+}
+
+
+/* Background-image styles */
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/1102672.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    overflow-y: auto;
+    
+}
+.background2{
+  height: 50%;
+  width: 100%;
+  background-image: url(images/aj-wallace-ql_jf8EzSec-unsplash.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+  
+}
+
+
+
+
+
+
+
+
  /* Socials styling */
+
+  .socials{
+    display: flex;
+   
+  }
+
 
 /* .socials{
    display: none;
