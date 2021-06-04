@@ -33,6 +33,8 @@ c. As a frequent user I want to be able to be able to recive more information af
 
 ## Wireframes
 
+For the design of my wireframes I used Balsamic, You can find the link to the site here!   
+I will also include screenshots below.
 ## Features
 
 ## Technologies used
@@ -41,8 +43,40 @@ c. As a frequent user I want to be able to be able to recive more information af
 - Javascript
 - CSS
 - HTML
+- Markdown
 
 ## Testing 
+For my testing I used the W3C validator the bbbbb for javascript and bbbb for my CSS. 
+
+
+## To test my code I did it in the following way 
+A. 
+
+  i.
+
+  ii.
+
+  iii.
+
+
+B.
+
+   i.
+
+  ii.
+
+  iii.
+
+
+C.
+
+   i.
+
+  ii.
+
+  iii.
+
+
 
 ### Testing user stories 
 
@@ -102,7 +136,37 @@ c. "As a frequent user I want to be able to be able to recive     more informati
 ## Bugs
 
 ## Deployment
+To deploy my Project to Github do it following these steps
+
+1.
+
+
+2.
+
+
+3.
 
 ## Credit
+
+Fisrt I would like to thank my mentor Samantha for all the help and then the Code Institute!
+
+[ BOOTSRAP]
+
+[W3C SCHOOLS]
+
+[JAVA TESTER]
+
+[CSS TESTER]
+
+[JQUERY]
+
+[FONT AWESOME]
+
+[GOOGLE IMAGES]
+
+[IMAGE SITE SAMMY SHOWED YOU]
+
+[GOOGLE API]
+
 
 
