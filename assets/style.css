@@ -40,12 +40,16 @@ em{
 /* Nav-bar styles */
 .container-fluid{
     width: fit-content;
-   font-size: 25px;
+   font-size: 40px;
 
 }
 
  .navbar-nav{
      color: azure;
+ }
+
+ .navbar-brand{
+   font-size: 40px;
  }
 
 
@@ -95,7 +99,21 @@ em{
  /* Socials styling */
 
   .socials{
+    padding: 3px;
+    margin: 3px;
     display: flex;
+    width: 25%;
+    font-size: 25px;
+   
+  }
+
+
+  .socials2{
+    padding-right: 3px;
+    margin-right: 3px;
+    text-align: right;
+    width: 25%;
+    float: right;
    
   }
 
