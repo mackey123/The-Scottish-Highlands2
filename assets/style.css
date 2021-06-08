@@ -11,8 +11,6 @@ html, body{
   width: 100%;
   height:100%;
   font-family:'Roboto', sans-serif;
-
-
 }
 
   .header{
@@ -24,7 +22,6 @@ html, body{
      padding: 10px;
      padding-top: 20%;
      padding-bottom: 20%;
-  
 }
 
 em{
@@ -41,7 +38,6 @@ em{
 .container-fluid{
     width: fit-content;
    font-size: 40px;
-
 }
 
  .navbar-nav{
@@ -115,6 +111,25 @@ em{
    display: none;
 } */
 
+
+
+/* About us styles */
+
+.about-start{
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  margin: 5px;
+}
+
+.p-about{
+  padding-top: 5px;
+  margin: 5px;
+}
+
+#about{
+  background-color: rgb(185, 210, 255);
+}
 
 
 
