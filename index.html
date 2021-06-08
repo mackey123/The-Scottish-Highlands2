@@ -63,9 +63,7 @@
    <div class = "background2">
 
     <div class="container-fluid" id="about">
-    
        About us
-     
     </div>
 
       <em class="about-start">
@@ -145,30 +143,38 @@
 
 
 <section id = "Contact">
-<h1> 
-   Contact
-</h1>
-<p class ="info">Pellentesque posuere a nibh non dignissim.
-  Proin eget mauris tristique, sollicitudin nunc ut, congue mi.
-   Nunc turpis erat, auctor eget sollicitudin ac, vestibulum quis orci.
-    Fusce tincidunt venenatis convallis.
-     Pellentesque suscipit nunc id elit malesuada maximus.
-      Vestibulum commodo, ligula a consectetur placerat, risus mauris lobortis felis, sit amet eleifend odio tortor ut risus.
-       Integer imperdiet scelerisque augue, a ullamcorper ante aliquam dictum.
-        Duis rutrum velit sapien, a ultricies erat bibendum vel.
-         Etiam malesuada imperdiet orci, sed dapibus odio fermentum eu.
-          Proin mollis hendrerit nulla, ut mattis enim porttitor a.
-           Nunc consectetur massa erat, sit amet accumsan tellus dignissim eu.Pellentesque posuere a nibh non dignissim.
-           Proin eget mauris tristique, sollicitudin nunc ut, congue mi.
-            Nunc turpis erat, auctor eget sollicitudin ac, vestibulum quis orci.
-             Fusce tincidunt venenatis convallis.
-              Pellentesque suscipit nunc id elit malesuada maximus.
-               Vestibulum commodo, ligula a consectetur placerat, risus mauris lobortis felis, sit amet eleifend odio tortor ut risus.
-                Integer imperdiet scelerisque augue, a ullamcorper ante aliquam dictum.
-                 Duis rutrum velit sapien, a ultricies erat bibendum vel.
-                  Etiam malesuada imperdiet orci, sed dapibus odio fermentum eu.
-                   Proin mollis hendrerit nulla, ut mattis enim porttitor a.
-                    Nunc consectetur massa erat, sit amet accumsan tellus dignissim eu.</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Have any more questions or stories about the Highlands?</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/images/12356.jpg"width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="topc">Topic</label>
+        <select id="country" name="country">
+          <option value="scotland">Scotland</option>
+          <option value="the-highlands">The Highlands</option>
+          <option value="story">Story</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit" required>
+      </form>
+    </div>
+  </div>
+</div>
+ 
+
+
 </section>
 
 </div>
