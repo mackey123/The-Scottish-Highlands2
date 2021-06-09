@@ -31,6 +31,7 @@ c. As a frequent user I want to be able to be able to recive more information af
 
 ## Design 
 
+
 ## Wireframes
 
 For the design of my wireframes I used Balsamic, You can find the link to the site here!   
