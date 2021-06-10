@@ -102,6 +102,7 @@
   <h1> 
      Destinations
   </h1>
+
    <h4>
       The Scottish Highlands is full of hundreds of exciting places to go to,
       to narrow it down we have put it into our top six destinations to go!
@@ -139,6 +140,7 @@
            Nunc consectetur massa erat, sit amet accumsan tellus dignissim eu.</p>
 </section>
 
+<!-- Inspiration form w3c schools -->
 
 <section id = "Contact">
 
@@ -154,15 +156,17 @@
     <div class="column">
       <form action="/action_page.php">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
         <label for="topic">Topic</label>
+
         <select id="topic" name="topic">
           <option value="scotland">Scotland</option>
           <option value="the-highlands">The Highlands</option>
           <option value="story">Story</option>
         </select>
+
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
         <input type="submit" value="Submit" required>
