@@ -89,13 +89,20 @@ em{
 
  /* Socials styling */
 
+
+ .social:hover{
+   color: bisque;
+  
+ }
+
   .socials{
+    color: rgb(255, 254, 254);
     padding: 3px;
     margin: 3px;
     display: flex;
     width: 25%;
-    font-size: 25px;
-  
+    font-size: 40px;
+    text-decoration: none;
   }
 
 
@@ -110,6 +117,7 @@ em{
 
   a:hover {
     cursor: pointer;
+    color: blanchedalmond;
   }
 
 
@@ -139,6 +147,8 @@ em{
 
 
 /* Contact styles */
+
+
 
 label{
   color: rgb(104, 104, 104);
