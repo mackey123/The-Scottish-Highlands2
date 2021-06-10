@@ -40,6 +40,11 @@ ul li{
 }
 
 
+h1,h2,h3,h4,h5{
+   font-family: sans-serif;
+}
+
+
 /* Nav-bar styles */
 /* nav a{
   color: azure;
@@ -162,38 +167,65 @@ ul li{
 
 /* Contact styles */
 label{
-  color: rgb(104, 104, 104);
+  color:rgb(104, 104, 104);
+  float: left;
 }
 
-input[type=submit]:hover {
-  background-color: rgb(253, 200, 200);
+* {
+  box-sizing: border-box;
 }
 
+/* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  padding: 10px;
+  border: 1px solid rgb(180, 178, 178);
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+h2{
+  font-size: 50px;
 }
 
 .row:after {
   clear: both;
   content: "";
   display: table;
-  
 }
 
+
+input[type=submit]:hover {
+  background-color: rgb(253, 200, 200);
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: azure;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
 input[type=submit] {
-  background-color: rgb(216, 227, 250);
-  padding: 12px 20px;
-  border: none;
   cursor: pointer;
+  background-color: rgb(216, 227, 250);
+  padding: 10px 20px;
+  border: 1px solid;
   color: rgb(133, 134, 134);
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+ /* Responsive layout - when the screen is less than 600px wide,  */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
