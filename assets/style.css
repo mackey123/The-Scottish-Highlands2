@@ -35,6 +35,10 @@ em{
   color: azure;
 }
 
+ul li{
+  list-style: none;
+}
+
 
 /* Nav-bar styles */
 /* nav a{
@@ -195,6 +199,14 @@ input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+}
+
+
+/* Destinations styles */
+.d-styles{
+  color: azure;
+  font-size: 50px;
+  display: inline-block;
 }
 
 
