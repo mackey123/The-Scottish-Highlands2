@@ -37,8 +37,13 @@ em{
 
 
 /* Nav-bar styles */
+/* nav a{
+  color: azure;
+  background-color: beige;
+} */
+
 .container-fluid{
-    width: fit-content;
+   width: fit-content;
    font-size: 40px;
 }
 
@@ -54,6 +59,10 @@ em{
  /* section styles */
   section, h1{
     color: rgb(104, 104, 104);
+  }
+
+  .section-styles{
+    text-align: center;
   }
 
 
@@ -91,14 +100,15 @@ em{
 
 
  .social:hover{
-   color: bisque;
+   color: rgb(235, 211, 182);
+   
   
  }
 
   .socials{
-    color: rgb(255, 254, 254);
-    padding: 3px;
-    margin: 3px;
+    color: rgb(168, 168, 168);
+    padding: 5px;
+    margin: 5px;
     display: flex;
     width: 25%;
     font-size: 40px;
@@ -147,9 +157,6 @@ em{
 
 
 /* Contact styles */
-
-
-
 label{
   color: rgb(104, 104, 104);
 }
@@ -189,6 +196,8 @@ input[type=submit] {
     margin-top: 0;
   }
 }
+
+
 
 
 
