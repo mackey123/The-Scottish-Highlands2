@@ -49,10 +49,17 @@ h1,h2,h3,h4,h5{
 
 
 /* Nav-bar styles */
-/* nav a{
+
+a:hover {
+  cursor: pointer;
+  color: rgb(238, 214, 181);
+}
+
+nav a{
   color: azure;
-  background-color: beige;
-} */
+  padding: 5px;
+  margin: 5px;
+}
 
 .container-fluid{
    width: fit-content;
@@ -131,11 +138,6 @@ h1,h2,h3,h4,h5{
     width: 25%;
     float: right;
    
-  }
-
-  a:hover {
-    cursor: pointer;
-    color: blanchedalmond;
   }
 
 
