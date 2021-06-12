@@ -2,7 +2,10 @@
 
 ## Welcome 
 
-This is the Readme for my Scottish Highlands website! I hope to provide all the necessary information and and answer any questions you may have.
+This is the Readme for my Scottish Highlands website!
+ I hope to provide all the necessary information and and answer any questions you may have.
+ It is responsive on all devices, view the website here []
+
 
 ## Overview
 
@@ -32,15 +35,46 @@ c. As a frequent user I want to be able to be able to recive more information af
 ## Design 
 
 
+### Typograpghy
+
+- The Roboto is the main font present within this site and lato for h1 to h6 headers. I have sans serif as the fallback.
+
+### Imagery 
+
+- There is a a few pictures in this site the main been the one of the Scottish highlands as the home page, all images used throught are of the highlands to highlight its beauty.
+
+### Colour Scheme
+
+-The main colours used are a light blue for sections and a light grey for backgrounds, navbar is azure to contrast with the home page image.
+
+
 ## Wireframes
 
 For the design of my wireframes I used Balsamic, You can find the link to the site here!   
 I will also include screenshots below.
+
+
+![wireframe](assets/images/wireframes-two-normal.png)
+
+
+
+![wireframe](assets/images/tablet-wireframe.png)
+
+
 ## Features
+
+- The site is responsive and can be viewed on all viewports.
+
+- Contains interactive elemnts and pop ups.
+
+
 
 ## Technologies used
 
-## languages used
+
+
+
+### languages used
 - Javascript
 - CSS
 - HTML
@@ -51,31 +85,33 @@ For my testing I used the W3C validator the bbbbb for javascript and bbbb for my
 
 
 ## To test my code I did it in the following way 
-A. 
 
-  i.
+- I ran the code through the 3 diffrent validators for each of  my three languages.
 
-  ii.
+i. I would copy sections of code so as not to do a whole page and fix any problems within the section first.
 
-  iii.
+ii. Paste the code into the correct tester.
+
+iii. Once results and errors (if present) are visble, examine and correct the changes needed.
+  
+iv. Repeated the same process for the three languages.
+
+- I would browse through the site on the three diffrent types of view     port to ensure it worked well.
+
+i.
+
+ii.
+
+iii.
 
 
-B.
+- I also viewed the site on diffrent browers to see how it reacted.
 
-   i.
+i.
 
-  ii.
+ii.
 
-  iii.
-
-
-C.
-
-   i.
-
-  ii.
-
-  iii.
+iii.
 
 
 
@@ -149,25 +185,46 @@ To deploy my Project to Github do it following these steps
 
 ## Credit
 
-Fisrt I would like to thank my mentor Samantha for all the help and then the Code Institute!
+Fisrt I would like to thank my mentor Samantha for all the help and then the Code Institute! I have added links to all the relevant sites I adapted code from or used to aid in me the making of this site.
 
 [ BOOTSRAP]
 
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
 [W3C SCHOOLS]
+
+https://www.w3schools.com/default.asp
+
 
 [JAVA TESTER]
 
+jshint
+
 [CSS TESTER]
+
+https://jigsaw.w3.org/css-validator/
 
 [JQUERY]
 
-[FONT AWESOME]
+[Google fonts]
+
+https://fonts.google.com/specimen/Lato#glyphs
 
 [GOOGLE IMAGES]
 
+https://www.google.com/search?q=image+scottish+highlands+free&rlz=1C1VDKB_enIE944IE944&tbm=isch&source=iu&ictx=1&fir=g30rp5vOLgkcHM%252CuH7jS_yEYCnGmM%252C_&vet=1&usg=AI4_-kQaux9s
+
+
 [IMAGE SITE SAMMY SHOWED YOU]
 
+https://pixabay.com/images/search/the%20scottish%20highlands/
+
 [GOOGLE API]
+
+
+[ Font awesome]
+
+https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
 
 

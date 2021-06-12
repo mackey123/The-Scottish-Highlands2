@@ -42,7 +42,7 @@ ul li{
 }
 
 h1,h2,h3,h4,h5{
-   font-family: sans-serif;
+   font-family: 'lato', sans-serif;
 }
 
 
@@ -128,7 +128,6 @@ nav a{
 
  /* Socials styling */
 
-
  .social:hover{
    color: rgb(235, 211, 182);
  }
@@ -139,7 +138,7 @@ nav a{
     margin: 5px;
     display: flex;
     width: 25%;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     text-align: center;
   }
@@ -195,7 +194,7 @@ label{
   box-sizing: border-box;
 }
 
-/* Style inputs */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 10px;
