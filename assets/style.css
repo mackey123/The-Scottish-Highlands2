@@ -26,6 +26,8 @@ html, body{
      padding: 10px;
      padding-top: 20%;
      padding-bottom: 20%;
+     
+  
 }
 
 em{
@@ -50,6 +52,7 @@ button{
   color: gray;
 }
 
+
 /* .nav{
   color: rgb(104, 104, 104);
 } */
@@ -62,6 +65,7 @@ a:hover {
   color: rgb(236, 202, 155);
   opacity: 6;
   border-bottom: 2px solid rgb(170, 154, 131);
+  box-shadow: 0 0 20px rgba(78, 78, 78, 0.4); 
 }
 
 
@@ -99,8 +103,9 @@ nav a{
 /* paragrapghs main html */
 
 .info{
-  color: rgb(128, 126, 126);
-  font-size: 25px;
+  color: azure;
+  font-size: 20px;
+  background-color: rgb(190, 203, 228);
 }
 
 
@@ -115,7 +120,7 @@ nav a{
     overflow-y: auto;
     
 }
-.background2{
+/* .background2{
   height: 50%;
   width: 100%;
   background-image: url(images/aj-wallace-ql_jf8EzSec-unsplash.jpg);
@@ -124,7 +129,7 @@ nav a{
   background-repeat: no-repeat;
   overflow-y: auto;
   
-}
+} */
 
  /* Socials styling */
 
@@ -174,13 +179,10 @@ nav a{
   margin: 5px;
 }
 
-#about{
-  background-color:  rgb(216, 227, 250);
-}
 
 div h4{
   font-size: 25px;
-  background-color: azure;
+  background-color: rgb(141, 169, 221);
 }
 
 
@@ -220,8 +222,9 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: rgb(179, 201, 201);
+  background-color: rgb(155, 185, 241);
   padding: 10px;
+  box-shadow: 0 0 20px rgba(61, 61, 61, 0.4); 
 }
 
 
@@ -258,9 +261,122 @@ input[type=submit] {
   
 }
 
+/* Gallery styles */
+/* <!-- inspired from css tricks W3C Schools --> */
+
+.gallery{
+  text-align:center;
+}
+
+
+.dot {
+  cursor: pointer;
+  margin: 0 2px;
+  background-color: rgb(197, 195, 195);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  width: 15px;
+  height: 15px;
+}
+
+div .text{
+  font-display: italic;
+  font-size: 25px;
+  text-shadow: 1px 1px rgb(219, 230, 230);
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
 
 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
 
+.prev, .next {
+  top: 50%;
+  position: absolute;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: azure;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
+
+.prev:hover, .next:hover {
+  background-color:rgb(236, 202, 155)
+}
+
+
+.text {
+  color: azure;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 8px;
+}
+
+
+.numbertext {
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  color:azure;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(197, 195, 195);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards; 
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
