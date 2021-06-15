@@ -62,10 +62,10 @@ button{
 
 a:hover {
   cursor: pointer;
-  color: rgb(236, 202, 155);
+  color: blue;
   opacity: 6;
-  border-bottom: 2px solid rgb(170, 154, 131);
-  box-shadow: 0 0 20px rgba(78, 78, 78, 0.4); 
+  border-bottom: rgb(74, 74, 255);
+  box-shadow: 0 0 1px rgba(78, 78, 78, 0.4); 
 }
 
 
@@ -85,8 +85,9 @@ nav a{
    font-size: 40px;
 }
 
- .navbar-brand{
+  .navbar-brand{
    font-size: 40px;
+
  }
 
  /* section styles */
@@ -164,7 +165,6 @@ nav a{
 } */
 
 
-
 /* About us styles */
 
 .about-start{
@@ -184,6 +184,12 @@ div h4{
   font-size: 25px;
   background-color: rgb(141, 169, 221);
 }
+
+
+/* Work at thois! */
+/* em p{
+  text-align: left;
+} */
 
 
 /* Contact styles */
@@ -262,7 +268,7 @@ input[type=submit] {
 }
 
 /* Gallery styles */
-/* <!-- inspired from css tricks W3C Schools --> */
+/* <!-- inspired from css tricks and W3C Schools --> */
 
 .gallery{
   text-align:center;
@@ -379,4 +385,18 @@ div .text{
 @keyframes fade {
   from {opacity: .3}
   to {opacity: 1}
+}
+
+/* Site link styles */
+.siteLinks a{
+  font-family:'Lato', sans-serif;
+  text-decoration: none;
+  color: azure;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.siteLinks a:hover{
+  color: blue;
 }
