@@ -19,14 +19,15 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous button controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
 //  image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
+
+
+// Next/previous button controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
 function showSlides(n) {
