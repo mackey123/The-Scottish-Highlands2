@@ -50,3 +50,8 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+// javascript for when form is submitted
+
+function myFunction() {
+  alert("Your details have been submitted");
+}

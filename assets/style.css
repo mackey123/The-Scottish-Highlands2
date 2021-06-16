@@ -106,7 +106,11 @@ nav a{
 .info{
   color: azure;
   font-size: 20px;
-  background-color: rgb(190, 203, 228);
+  background-color:rgb(141, 169, 221);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  
 }
 
 
@@ -182,7 +186,11 @@ nav a{
 
 div h4{
   font-size: 25px;
-  background-color: rgb(141, 169, 221);
+  background-color:rgb(155, 185, 241);
+}
+
+div .container em{
+  font-size: 20px;
 }
 
 
@@ -223,7 +231,7 @@ h2{
 }
 
 input[type=submit]:hover {
-  background-color: rgb(236, 202, 155);
+  background-color:blue;
 }
 
 .container {
@@ -264,6 +272,7 @@ input[type=submit] {
 .d-styles{
   color: rgb(133, 134, 134);
   font-size: 25px;
+  padding: 5px;
   
 }
 
@@ -329,7 +338,7 @@ div .text{
 
 
 .prev:hover, .next:hover {
-  background-color:rgb(236, 202, 155)
+  background-color:rgb(132, 132, 255);
 }
 
 
