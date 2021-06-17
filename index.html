@@ -7,7 +7,15 @@
      <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
- <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
 
  <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
@@ -46,9 +54,13 @@
   </div>
 </nav>  
 
+
+
 <!-- addes Javascript to all headers to change color when hovered over -->
- <h2 class = "header" onmouseover="style.color='blue'" onmouseout="style.color='azure'">
-   <em id="em">The Scottish Highlands</em>
+
+<!-- onmouseover="style.color='blue'" onmouseout="style.color='azure'" id="em" -->
+ <h2 id="ems" class = "header">
+   <em>The Scottish Highlands</em>
  </h2>
 
 
@@ -56,7 +68,7 @@
 <!-- 
 <img src="assets/images/456567.jpg" class="img-fluid" alt="picture of scottish highlands river with mountain in the back"> -->
 
-<section class = "section-styles" id="About">
+<section class = "section-styles" id="about">
   
   
   <h1 onmouseover="style.color='blue'" onmouseout="style.color='azure'"> 
@@ -93,7 +105,7 @@
   <div class="column">
     <div class="container">
       <div class="row row-cols-1">
-       <h4  onmouseover="style.color='blue'" onmouseout="style.color='azure'">Inversnaid </h4>
+       <h4 onmouseover="style.color='blue'" onmouseout="style.color='azure'">Inversnaid </h4>
       </div>
     </div>
 
@@ -116,7 +128,7 @@
        Of wet and of wildness? Let them be left,
        O let them be left, wildness and wet;
        Long live the weeds and the wilderness yet.
-      </em> 
+     </em> 
     </div>
    </div>
   </p>
@@ -126,13 +138,15 @@
 
 </section>
  
-<!-- container adapted from bootsrap  -->
 
 <section class = "section-styles" id="Destinations">
   <h1  onmouseover="style.color='blue'" onmouseout="style.color='azure'"> 
      Destinations
   </h1>
 
+
+
+<!-- container adapted from bootsrap  -->
 
 <div class="container">
  <div class="row row-cols-1"> 
@@ -143,14 +157,14 @@
  </div>
 </div>
 
-<!--All information adapted from Wikipedia "https://en.wikipedia.org/wiki/Main_Page" -->
+<!--All information adapted from Wikipedia typed up each loaction and adapted from the page "https://en.wikipedia.org/wiki/Main_Page" -->
 
 <div class="container">
   <div class="row row-cols-2">
 
     <div class="col"> 
       <em class= "d-styles" onmouseover="style.color='blue'" onmouseout="style.color='azure'">Loch Ness</em>
-      <p>
+      <p class="text-start">
          Loch Ness is a large and deep freshwater loch in the Scottish Highlands extending for approximately 37 kilometres (23 miles) southwest of Inverness.
           Its surface level is 16 metres above sea level.
          Loch Ness is best known for alleged sightings of the cryptozoological Loch Ness Monster, also known affectionately as "Nessie".
@@ -165,24 +179,25 @@
          which runs from Inverness in the north to Fort William in the south.
        </p>
     </div>
-    
+
     <div class="col">
        <em class= "d-styles" onmouseover="style.color='blue'" onmouseout="style.color='azure'">Isle of Skye</em>
-      <p>
-           The Isle of Skye, is the largest and northernmost of the major islands in the Inner Hebrides of Scotland.The island's peninsulas radiate from a mountainous hub dominated by the Cuillin, the rocky slopes of which provide some of the most dramatic mountain scenery in the country.
-           Although it has been suggested that Sgitheanach describes a winged shape there is no definitive agreement as to the name's origins.
-           The island has been occupied since the Mesolithic period, and its history includes a time of Pictish, Celtic and Norse rule and a long period of domination by Clan MacLeod and Clan Donald.
-            The 18th century Jacobite risings led to the breaking up of the clan system and later clearances that replaced entire communities with sheep farms, some of which involved forced emigrations to distant lands.
-            Resident numbers declined from over 20,000 in the early 19th century to just under 9,000 by the closing decade of the 20th century.
-            Skye's population increased by 4 per cent between 1991 and 2001.
-            About a third of the residents were Gaelic speakers in 2001, and although their numbers are in decline, this aspect of island culture remains important.
-        
-            The main industries are tourism, agriculture, fishing and forestry. Skye is part of the Highland Council local government area.
-            The island's largest settlement is Portree, which is also its capital, known for its picturesque harbour. There are links to various nearby islands by ferry and, since 1995, to the mainland by a road bridge.
-            The climate is mild, wet and windy.
-            The abundant wildlife includes the golden eagle, red deer and Atlantic salmon.
-            The local flora are dominated by heather moor, and there are nationally important invertebrate populations on the surrounding sea bed.
-            Skye has provided the locations for various novels and feature films and is celebrated in poetry and song. </p>
+        <p class="text-start">
+           The Isle of Skye, is the largest and northernmost of the major islands in the Inner Hebrides of Scotland.
+           The island's peninsulas radiate from a mountainous hub dominated by the Cuillin, the rocky slopes of which provide some of the most dramatic mountain scenery in the country.
+            Although it has been suggested that Sgitheanach describes a winged shape there is no definitive agreement as to the name's origins.
+             The island has been occupied since the Mesolithic period, and its history includes a time of Pictish, Celtic and Norse rule and a long period of domination by Clan MacLeod and Clan Donald.
+              The 18th century Jacobite risings led to the breaking up of the clan system and later clearances that replaced entire communities with sheep farms, some of which involved forced emigrations to distant lands.
+               Resident numbers declined from over 20,000 in the early 19th century to just under 9,000 by the closing decade of the 20th century.
+                Skye's population increased by 4 per cent between 1991 and 2001.
+                 About a third of the residents were Gaelic speakers in 2001, and although their numbers are in decline, this aspect of island culture remains important.
+                 The main industries are tourism, agriculture, fishing and forestry. Skye is part of the Highland Council local government area.
+                  The island's largest settlement is Portree, which is also its capital, known for its picturesque harbour. There are links to various nearby islands by ferry and, since 1995, to the mainland by a road bridge.
+                   The climate is mild, wet and windy.
+                    The abundant wildlife includes the golden eagle, red deer and Atlantic salmon.
+                     The local flora are dominated by heather moor, and there are nationally important invertebrate populations on the surrounding sea bed.
+                     Skye has provided the locations for various novels and feature films and is celebrated in poetry and song. 
+        </p>
               
    </div>
   </div>
@@ -194,7 +209,7 @@
     <div class="col"> 
       <em class= "d-styles"  onmouseover="style.color='blue'" onmouseout="style.color='azure'">Ben Navis</em>
 
-      <p>
+      <p class="text-start">
         Ben Nevis is the highest mountain in Scotland and the United Kingdom.
          The summit is 1,345 metres above sea level and is the highest land in any direction for 739 km.
           Ben Nevis stands at the western end of the Grampian Mountains in the Highland region of Lochaber, close to the town of Fort William.
@@ -208,15 +223,15 @@
     </div>
     <div class="col">
       <em class= "d-styles"  onmouseover="style.color='blue'" onmouseout="style.color='azure'">Eilean Donan Castle</em>
-      <p>
+      <p class="text-start">
         Eilean Donan (Scottish Gaelic: Eilean Donnain) is a small tidal island situated at the confluence of three sea lochs (Loch Duich, Loch Long and Loch Alsh) in the western Highlands of Scotland, about 1 kilometre from the village of Dornie.
          It is connected to the mainland by a footbridge that was installed early in the 20th century, and is dominated by a picturesque castle that frequently appears in photographs, film and television.
           The island’s original castle was built in the thirteenth century; it became a stronghold of the Clan Mackenzie and their allies, the Clan MacRae. However, in response to the Mackenzies' involvement in the Jacobite rebellions early in the 18th century, government ships destroyed the castle in 1719.
-          The present-day castle is Lieutenant-Colonel John Macrae-Gilstrap's 20th-century reconstruction of the old castle.
-           Eilean Donan is part of the Kintail National Scenic Area, one of 40 in Scotland.
-           In 2001, the island had a recorded population of just one person, but there were no "usual residents" at the time of the 2011 census. 
-           Eilean Donan, which means simply "island of Donnán", is named after Donnán of Eigg, a Celtic saint who was martyred in 617.
-            Donnán is said to have established a church on the island, though no trace of this remains.</p>
+           The present-day castle is Lieutenant-Colonel John Macrae-Gilstrap's 20th-century reconstruction of the old castle.
+            Eilean Donan is part of the Kintail National Scenic Area, one of 40 in Scotland.
+             In 2001, the island had a recorded population of just one person, but there were no "usual residents" at the time of the 2011 census. 
+              Eilean Donan, which means simply "island of Donnán", is named after Donnán of Eigg, a Celtic saint who was martyred in 617.
+               Donnán is said to have established a church on the island, though no trace of this remains.</p>
     
     </div>
 
@@ -228,7 +243,8 @@
 
     <div class="col">
       <em class= "d-styles"  onmouseover="style.color='blue'" onmouseout="style.color='azure'">Glencoe</em>
-       <p>Glen Coe (Scottish Gaelic: Gleann Comhann), is a glen of volcanic origins, in the Highlands of Scotland.
+       <p class="text-start">
+         Glen Coe (Scottish Gaelic: Gleann Comhann), is a glen of volcanic origins, in the Highlands of Scotland.
           It lies in the north of the county of Argyll, close to the border with the historic province of Lochaber, within the modern council area of Highland.
            The glen is noted for its scenic beauty.
             A review by Scottish Natural Heritage in 2010 made reference to the "soaring, dramatic splendour of Glen Coe", and "the suddenness of the transition between high mountain pass and the lightly wooded strath" in the lower glen.
@@ -246,7 +262,8 @@
 
     <div class="col">
       <em class= "d-styles" onmouseover="style.color='blue'" onmouseout="style.color='azure'"> Cairngorms National Park</em>
-        <p>Cairngorms National Park is a national park in northeast Scotland, established in 2003. 
+        <p class="text-start">
+          Cairngorms National Park is a national park in northeast Scotland, established in 2003. 
           It was the second of two national parks established by the Scottish Parliament, after Loch Lomond and The Trossachs National Park, which was set up in 2002.
            The park covers the Cairngorms range of mountains, and surrounding hills.
             Already the largest national park in the United Kingdom, in 2010 it was expanded into Perth and Kinross. Roughly 18,000 people reside within the 4,528 square kilometre national park.
@@ -261,15 +278,18 @@
 </div>
 
 
+<!-- <div id="mapid">  Map</div> -->
+
+
    <p class ="info">
         The Scottish Highlands of course has many favourable places to go! 
         So much so that we can not even fit them all in here. Please have a look
         at these other sits and website which offer even more great places to go!
    </p>
 
-<ul>
+<ul class="container">
       <li class="siteLinks">
-          <a href="https://www.visitscotland.com/destinations-maps/highlands" target="_blank"/>Visit Scotland </a>
+          <a href="https://www.visitscotland.com/destinations-maps/highlands" target="_blank">Visit Scotland </a>
       </li>
    
       <li class="siteLinks">
@@ -296,6 +316,7 @@
     <h1 id="shadow" onmouseover="style.color='blue'" onmouseout="style.color='azure'"> 
       Gallery
     </h1>
+
 <!-- JS added for time button -->
     <button type="button" onclick="document.getElementById('time').innerHTML = Date()">
         Date and Time.
@@ -468,7 +489,7 @@
           <select id="topic" name="topic">
             <option value="scotland">Scotland</option>
              <option value="the-highlands">The Highlands</option>
-            <option value="story">Story</option>
+            <option value="story">Story </option>
           </select>
   
           <label for="subject"></label>

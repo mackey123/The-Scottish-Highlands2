@@ -125,16 +125,6 @@ nav a{
     overflow-y: auto;
     
 }
-/* .background2{
-  height: 50%;
-  width: 100%;
-  background-image: url(images/aj-wallace-ql_jf8EzSec-unsplash.jpg);
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
-  overflow-y: auto;
-  
-} */
 
  /* Socials styling */
 
@@ -402,10 +392,18 @@ div .text{
   text-decoration: none;
   color: azure;
   font-size: 25px;
-  display: inline-block;
-  vertical-align: top;
+  display: block;
+  
 }
 
 .siteLinks a:hover{
   color: blue;
 }
+
+
+
+
+/* map-styles */
+
+/* #mapid { height: 180px; } */
+
