@@ -39,7 +39,6 @@ html, body{
      padding-top: 20%;
      padding-bottom: 20%;
      
-  
 }
 
 em{
@@ -64,6 +63,10 @@ button{
   color: gray;
 }
 
+footer{
+  padding: 10px;
+}
+
 
 /* .nav{
   color: rgb(104, 104, 104);
@@ -75,9 +78,8 @@ button{
 a:hover {
   cursor: pointer;
   color: blue;
-  opacity: 6;
+  opacity: 5;
   border-bottom: rgb(74, 74, 255);
-  box-shadow: 0 0 1px rgba(78, 78, 78, 0.4); 
 }
 
 
@@ -203,6 +205,11 @@ div .container em{
 
 
 /* Contact styles */
+
+#subject {
+  background-color: azure;
+}
+
 label{
   color:rgb(104, 104, 104);
   float: left;
@@ -254,10 +261,14 @@ input[type=submit]:hover {
 
 input[type=submit] {
   cursor: pointer;
-  background-color: rgb(216, 227, 250);
+  background-color: azure;
   padding: 10px 20px;
   border: 1px solid;
   color: rgb(133, 134, 134);
+}
+
+#topic{
+  background-color: azure;
 }
 
 
@@ -403,19 +414,86 @@ div .text{
   font-family:'Lato', sans-serif;
   text-decoration: none;
   color: azure;
-  font-size: 25px;
+  font-size: 30px;
   display: block;
-  
 }
 
 .siteLinks a:hover{
   color: blue;
 }
 
+/* sign up letter styles
+/*  */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: azure;
+}
+
+#terms{
+  padding: 10px;
+}
+
+.signUp{
+  text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  margin-bottom: 25px;
+}
 
 
+div .clearfix button {
+  background-color: azure;
+  color: rgb(133, 134, 134);
+  padding: 15px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
 
-/* map-styles */
+div .clearfix button:hover {
+  opacity:1;
+  background-color: blue;
+  color: azure;
+}
 
-/* #mapid { height: 180px; } */
+.cancelbtn {
+  padding: 14px 20px;
+}
 
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 15px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* /* responsive for diffrent screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
