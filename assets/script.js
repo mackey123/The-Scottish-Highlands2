@@ -1,17 +1,37 @@
 
-// adapted from CSS ticks (J-Query)
-
-// $("#slideshow > div:gt(0)").hide();
-// setInterval(function() { 
-//   $('#slideshow > div:first')
-//   .fadeOut(1000)
-//   .next()
-//   .fadeIn(1000)
-//   .end()
-//   .appendTo('#slideshow');
-// }, 3000);
+// if (second < 5) {
+//   greeting = "loading";
+// } else if (second > 5) {
+//   greeting = "welcome";
+// } else {
+//   greeting = "please reload page";
+// }
 
 
+
+
+var loader = document.getElementById("preloader")
+
+window.addEventListener("load", function(){
+   loader.style.display = "none";
+})
+
+
+
+
+const body = document.body;
+body.onload = loadingFunction;
+
+function loadingFunction() {
+  alert('Page finished loading');
+}
+
+
+// javascript for when form is submitted
+
+function myFunction() {
+  alert("Your details have been submitted");
+}
 
 
 
@@ -22,7 +42,7 @@ showSlides(slideIndex);
 
 // Next/previous button controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  showSlides (slideIndex += n);
 }
 
 //  image controls
@@ -32,14 +52,16 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot") ;
+
+  var slides = document.getElementsByClassName("mySlides") ;
+
+  var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
 
   if (n < 1) {slideIndex = slides.length}
 
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none" ;
+      slides[i].style.display = "none";
   }
 
   for (i = 0; i < dots.length; i++) {
@@ -47,15 +69,9 @@ function showSlides(n) {
   }
 
   slides[slideIndex-1].style.display = "block";
+
   dots[slideIndex-1].className += " active";
 }
-
-// javascript for when form is submitted
-
-function myFunction() {
-  alert("Your details have been submitted");
-}
-
 
 
 // map styles
@@ -74,18 +90,6 @@ function myFunction() {
 //     accessToken: 'your.mapbox.access.token'
 // }).addTo(mymap);
 
-
-
-// document.getElementById("em").onmouseover = function() {mouseOver()};
-// document.getElementById("em").onmouseout = function() {mouseOut()};
-
-// function mouseOver() {
-//   document.getElementById("em").style.color = "blue";
-// }
-
-// function mouseOut() {
-//   document.getElementById("em").style.color = "azure";
-// }
 
 
 // added a event listener to change color as couldnt in html directly
