@@ -68,11 +68,6 @@ footer{
 }
 
 
-/* .nav{
-  color: rgb(104, 104, 104);
-} */
-
-
 /* Nav-bar styles */
 
 a:hover {
@@ -196,12 +191,6 @@ div h4{
 div .container em{
   font-size: 20px;
 }
-
-
-/* Work at thois! */
-/* em p{
-  text-align: left;
-} */
 
 
 /* Contact styles */
@@ -484,14 +473,13 @@ div .clearfix button:hover {
   padding: 15px;
 }
 
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* /* responsive for diffrent screens */
+/* /* responsive for different screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
