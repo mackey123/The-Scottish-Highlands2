@@ -1,19 +1,31 @@
-
-// page loader for preload of page
-
-let loader = document.getElementById("preloader");
-
-window.addEventListener("load", function(){
-  loader.style.display = "none"
-});
-
-
-const body = document.body;
-body.onload = loadingFunction;
-
-function loadingFunction() {
-  alert('Page finished loading');
+// Date and time button for under Gallery
+function dateFunc(thatBtn) {
+  return thatBtn.innerHTML = Date();
 }
+
+
+// time js for under about section 
+function time() {
+  
+  let currentdate = new Date(); 
+  let timenow = + currentdate.getHours() + ":"  
+              + currentdate.getMinutes() + ":" 
+              + currentdate.getSeconds();
+    document.getElementById("datebtn").innerHTML = timenow;
+  
+  }
+
+
+// loader styles for all pages 
+
+const splash = document.querySelector('.splash');
+
+document.addEventListener('DOMContentLoaded', (e)=>{
+   setTimeout(()=>{
+        splash.classList.add('display-none');
+    }, 2000);
+})
+
 
 // javascript for when form is submitted
 
