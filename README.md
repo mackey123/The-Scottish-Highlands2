@@ -1,4 +1,4 @@
-![wireframe](/assets/images/mockup.jpg)
+![](/assets/images/mockup.jpg)
 
 ## Welcome 
 
@@ -246,19 +246,24 @@ Fisrt I would like to thank my mentor Samantha for all the help and then the Cod
 
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
+-Used for the shadow of elements my nav-bar and boiler plate.
+
 ## W3C SCHOOLS
 
 https://www.w3schools.com/default.asp
 
-
+- used for inspiration on many aspects, adapted contact form from there site and signup form.
 ## JSHINT
 
 https://jshint.com/
 
+- Used to correct JS
 
 ## JIGSAW
 
 https://jigsaw.w3.org/css-validator/
+
+- Used to correct CSS.
 
 ## JQUERY
 
@@ -266,24 +271,34 @@ https://jigsaw.w3.org/css-validator/
 
 https://fonts.google.com/specimen/Lato#glyphs
 
+- Used for my Roboto and Lato fonts.
+
 ## GOOGLE IMAGES
 
 https://www.google.com/search?q=image+scottish+highlands+free&rlz=1C1VDKB_enIE944IE944&tbm=isch&source=iu&ictx=1&fir=g30rp5vOLgkcHM%252CuH7jS_yEYCnGmM%252C_&vet=1&usg=AI4_-kQaux9s
 
+- Used for my images in this site mainky for the Gallery.
 
 ## Pixabay
 
 https://pixabay.com/images/search/the%20scottish%20highlands/
 
-
+- Used for my images in this site mainky for the Gallery.
 
 ## FONT AWESOME
 
 https://fontawesome.com/v5.15/icons?d=gallery&p=2
 
+- used for Icons for socials in footer.
 
 ## WIKIPEDIA
 
 https://en.wikipedia.org/wiki/Main_Page
 
+- Used for information on my six destinations all info copied and adapted from wikipedia.
+
 ## HTML TESTER
+ - Used to correct all my html code.
+
+## CSS TRICKS
+- Used for inspiartion on my whole site along with W3C Schools.

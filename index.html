@@ -7,7 +7,7 @@
     <meta name="Description" content="Enter your description here"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
     <link rel="shortcut icon" href="#">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,7 +20,7 @@
   <div class="splash"> <em class="fade-in"> Ready for a adventure? </em></div>
 
     <!-- Background image script and code (CSS) --> 
- <div class = "background" alt="photo of scottish Highlands">
+ <div class = "background">
 
 <!-- Nav-bar boiler adapted from bootsrap and then styled -->
 <nav class="navbar navbar-expand-lg">
@@ -51,9 +51,10 @@
 
 <!-- addes Javascript to all headers to change color when hovered over -->
 
- <h2 id="ems" class = "header">
+ <h2 id="ems" class ="header">
    <em>The Scottish Highlands</em>
  </h2>
+
 
 </div>
 
@@ -66,8 +67,9 @@
 
   <p id="datebtn"></p>
 
-    <a id= "timE" type="button" onclick="time()">Show time?</a>
-
+    <!-- <a type="button" href="" id="timE" onclick="time()">Show time?</a> -->
+    <button id="timE" onclick="time()">Show time? </button> 
+   
  <div class="container">
   <div class="row row-cols-1">
    <h4>
@@ -124,7 +126,7 @@
       </em> 
     </div>
    </div>
-  </p>
+ 
 
 </div>      
 
@@ -289,7 +291,7 @@
       </li>
   
       <li class="siteLinks">
-            <a href="https://www.poetryfoundation.org/poets/gerard-manley-hopkins" target="_blank">Website on gerard manley hopkins, the poet I used who wrote <em> </em>"Inversnaid" </em></a>
+            <a href="https://www.poetryfoundation.org/poets/gerard-manley-hopkins" target="_blank">Website on gerard manley hopkins, the poet I used who wrote <em>"Inversnaid"</em></a>
       </li> 
 </ul> 
 
@@ -471,7 +473,7 @@
           </select>
   
           <label for="subject"></label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"required></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
           <input type="submit" id="submit" value="Submit">
         </form>
       </div>
@@ -493,31 +495,34 @@
 
       <hr>
 
-       <label for="email" class="signUp"><b>Email:</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-  
-        <label for="psw" class="signUp"><b>Password:</b></label>
-         <input type="password" placeholder="Enter Password" name="password" required>
-  
-        <label for="psw-repeat" class="signUp"><b>Repeat Password:</b></label>
-         <input type="password" placeholder="Repeat Password" name="password-repeat" required>
-  
-       <label class="signUp">
+       <label for="Email:"><b>Email:</b></label>
+        <input type="text" id="Email:" placeholder="Enter Email" name="email" required>
+     
+
+        <label for="Password:"><b>Password:</b></label>
+         <input type="password" id="Password:" placeholder="Enter Password" name="password" required>
+       
+
+        <label for="Repeat-Password:"><b>Repeat Password:</b></label>
+         <input type="password" id="Repeat-Password:" placeholder="Repeat Password" name="password-repeat" required>
+        
+
+       <label>
          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</label>
 
            <em id= "terms"> By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy.</a></em>
 
-      <div class="clearfix">
+       <div class="clearfix">
         <button type="button" class="cancelbtn">Cancel</button>
         <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
+       </div>
 
      </div>
    </form>
 
    </section>
   
-  </div>
+  <!-- </div> -->
 
 <footer class="footStyles"> 
   <div class="socials">
@@ -533,7 +538,7 @@
 </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
-   <script src="js.script/script.js"></script>
-   <script src="js.script/gallery.js"></script>
+   <script src="assets/js/script.js"></script>
+   <script src="assets/js/gallery.js"></script>
  </body>
 </html>
