@@ -15,7 +15,7 @@ This is the Readme for my Scottish Highlands website!
  I hope to provide all the necessary information and and answer any questions you may have.
  I decided to take the approach of making the website first on normal broswer format as in a laptop or computer, 
  then styles and added what was needed for tablet and mobile devices.
- It is responsive on all devices, view the website here []
+ It is responsive on all devices, view the website here https://mackey123.github.io/The-Scottish-Highlands2/
 
 
 ## User Experience (UX)
@@ -248,6 +248,15 @@ To deploy my Project to Github do it following these steps
 3. Locate Git hub pages by scrolling down and underneath it click the drop-down menu to     select a folder for your publishing source.
 
 4. Click save and locate the link under the same section and click into the site.
+
+## Changes made after deployment
+
+- All my file paths had to be changed my background image and all my nav-bar file paths on my signup and contact html pages.
+
+- It had to be changed by taking a / from infront of it to allow a different file path for Github pages to work deploying my site.
+
+- I had to change my navbars on the contact and signup page from a #About to a "index.html#About" This was done on all the navbar options on the signup and contact html pages. From then all of the site worked the way it was supposed to and on all different viewports.
+
 
 ## Run code locally
 To run my code locally follow these steps:
