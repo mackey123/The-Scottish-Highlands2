@@ -6,15 +6,6 @@
 
 /* Main Html */
 
-#preloader{
-    background: #000 url(images/circle-loader-gif-2.gif) no-repeat center;
-    background-size: 10%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
 *{
     margin: 0;
     padding:0;
@@ -132,12 +123,11 @@ nav a{
 .background{
     height: 100%;
     width: 100%;
-    background-image: url(/assets/images/1102672.jpg);
+    background-image: url(../images/1102672.jpg);
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    overflow-y: auto;
-    
+    overflow-y: auto;  
 }
 
 /* socials styling */
